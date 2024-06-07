@@ -334,11 +334,16 @@ body.dark-theme {
   font-weight: var(--font-semi-bold);
   padding: 1rem 2rem;
   transition: background-color .4s, box-shadow .4s;
+  cursor: pointer;
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
   box-shadow: 0 8px 24px hsla(var(--hue), 90%, 30%, .3);
+}
+
+.button-1 {
+  margin-top: 20px;
 }
 
 /*=============== HOME ===============*/
@@ -716,6 +721,7 @@ body.dark-theme {
   padding: 1rem 2rem;
   transition: background-color .4s, box-shadow .4s;
   margin-top: 1.1rem;
+  cursor: pointer;
 }
 
 .button-work1 {
@@ -726,6 +732,7 @@ body.dark-theme {
   padding: 1rem 2rem;
   transition: background-color .4s, box-shadow .4s;
   margin-top: 2.1rem;
+  cursor: pointer;
 }
 
 /*=============== POP UP =====================*/
@@ -786,6 +793,7 @@ body.dark-theme {
   font-size: 16px;
   line-height: 20px;
 }
+
 
 /*=============== TESTIMONIAL ===============*/
 
